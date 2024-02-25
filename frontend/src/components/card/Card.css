@@ -1,0 +1,40 @@
+/* frontend/src/components/Card.css */
+
+.card {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 100px;
+    height: 150px;
+    display: flex;
+    color: black;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 20px;
+  }
+  
+.card p {
+    background: #fff;
+}
+  .cat {
+    background-image: url('../../assets/kitten.jpg'); 
+    background-size: cover;
+  }
+  
+  .defuse {
+    background-image: url("../../assets/Diffuse.jpg");
+    background-size: cover;
+  }
+  
+  .shuffle {
+    background-image: url("../../assets/Shuffle.jpg");
+    background-size: cover;
+    
+  }
+  
+  .exploding-kitten {
+    background-size: cover;
+    background-image: url("../../assets/explode.png");
+  }
+  
